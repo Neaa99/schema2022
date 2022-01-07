@@ -1,0 +1,272 @@
+/* #FEF4F3 */
+@font-face {
+    src: url(./fonts/Cherolina.ttf);
+    font-family: cher;
+  }
+* {
+    margin: 0;
+    
+}
+
+body {
+    background-color: #FECCD4;
+}
+
+
+
+.schema-box {
+    margin: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dag-box {
+   display: block;
+    padding-top: 5%;
+}
+
+.fredag {
+    height: 28rem;
+    width: 13rem;
+    margin: 1rem;
+    background-color: #FEF4F3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 25px 10px #e59cad;
+}
+
+
+
+h4, h3, h6 {
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Textens placering i session */
+.liveSessionMån h6  {
+    margin: -10px;
+}
+
+/* Fredag */
+
+.sessionFre {
+    height: 3.5rem;
+    width: 12rem;
+    margin: 1rem;
+    margin-top: 0rem;
+    border-radius: 10px;
+    background-color: #e1eabd;
+    box-shadow:  0px 5px 10px #bcbcbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamSessionFre {
+    height: 5rem;
+    width: 12rem;
+    margin: 2rem;
+    margin-top: 0rem;
+    border-radius: 10px;
+    background-color: #fff2dd;
+    box-shadow:  0px 5px 10px #bcbcbc;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    }
+
+.liveSessionFre {
+    height: 4rem;
+    width: 12rem;
+    margin: 2rem;
+    margin-top: -1rem;
+    border-radius: 10px;
+    background-color: #FFE1DD;
+    box-shadow:  0px 5px 10px #bcbcbc;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.studySessionFre {
+    height: 7rem;
+    width: 12rem;
+    margin-top: 0rem;
+    border-radius: 10px;
+    background-color: #facb93;
+    box-shadow:  0px 5px 10px #bcbcbc;   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.studySessionFre img {
+    margin: 1rem;
+}
+
+.studySessionFre p {
+    padding: 5px;
+}
+
+
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* to dolist kod testning */
+
+.toDoList {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Remove margins and padding from the list */
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: url('./angle-right-solid.svg');
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 22px 40px;
+    /*background: #eee;*/
+    font-size: 18px;
+    transition: 0.2s;
+    
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  ul li:nth-child(odd) {
+    /*background: #f9f9f9;*/
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    /*background: #ddd;*/
+  }
+
+  /* When clicked on, add a background color and strike out text */
+  ul li.checked {
+    /*background: #888;*/
+    /*color: #fff;*/
+    text-decoration: line-through;
+  }
+  
+  /* Add a "checked" mark when clicked on */
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    /*border-color: #fff;*/
+    /*border-style: solid; check icon*/
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    border-radius: 1rem;
+
+  }
+  
+  .close:hover {
+    background-color: #F7941F;
+    color: white;
+  }
+  
+  /* Style the header */
+  .header {
+    text-align: center;
+    display: flex;
+    margin: 3em;
+    justify-content: space-between;
+
+    
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 1rem;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    box-shadow:  0px 1px 10px #e59cad;
+
+  }
+  
+
+
+  /* Style the "Add" button */
+  .addBtn {
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background: #e1eabd;
+    box-shadow:  0px 2px 10px #bcbcbc;
+    color: #555;
+    float: right;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: static
+    
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+
+  .helaMån h1, .helaTis h1, .helaOns h1, .helaTor h1, .helaFre h1 {
+    text-align: center;
+    font-size: 54px;
+    font-weight: 100;
+    margin-top: -2rem;
+    font-family: cher;
+
+}

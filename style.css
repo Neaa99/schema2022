@@ -1,0 +1,335 @@
+/* #FEF4F3 */
+
+@font-face {
+    src: url(./fonts/Cherolina.ttf);
+    font-family: cher;
+}
+
+* {
+    margin: 0;
+    
+}
+
+body {
+    background-color: #FECCD4;
+    
+}
+
+
+
+.schema-box {
+    margin: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dag-box {
+    display: flex;
+    justify-content: space-evenly;
+        align-items: center;
+
+    
+}
+
+.måndag, .tisdag, .onsdag,
+.torsdag, .fredag {
+    height: 28rem;
+    width: 13rem;
+    margin: 1rem;
+    background-color: #FEF4F3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vardag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: ananda;
+    font-size: 40px;
+    padding-top: 4rem;
+    z-index: 1;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+h4, h3, h6 {
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Textens placering i session */
+.liveSessionMån h6, .liveSessionOns h6, .liveSessionFre h6,
+.teamSessionFre h6  {
+    margin: -10px;
+}
+
+/* Måndag */
+
+.sessionMån {
+    height: 3.5rem;
+    width: 12rem;
+    margin: 1rem;
+    margin-top: -1rem;
+    border-radius: 10px;
+    background-color: #e1eabd;
+    box-shadow:  0px 5px 10px #bcbcbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.liveSessionMån {
+    height: 5rem;
+    width: 12rem;
+    margin: 3rem;
+
+    margin-top: 0rem;
+    border-radius: 10px;
+    background-color: #FFE1DD;
+    box-shadow:  0px 5px 10px #bcbcbc;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.studySessionMån {
+    height: 10rem;
+    width: 12rem;
+    margin-top: 0rem;
+    border-radius: 10px;
+    background-color: #facb93;
+    box-shadow:  0px 5px 10px #bcbcbc;   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.studySessionMån img {
+    margin: 2rem;
+}
+
+.studySessionMån p {
+    padding: 10px;
+}
+
+/* Tisdag */
+
+.sessionTis {
+    height: 22rem;
+    width: 11rem;
+    border-radius: 15px;
+    background-color: #FFE1DD;
+    box-shadow:  0px 5px 10px #bcbcbc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sessionTis p {
+    padding: 10px;
+}
+
+
+/* Onsdag */
+
+.sessionOns {
+    height: 3.5rem;
+    width: 12rem;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    background-color: #e1eabd;
+    box-shadow:  0px 5px 10px #bcbcbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamSessionOns {
+    height: 4rem;
+    width: 12rem;
+    margin: 2rem;
+    margin-top: 0rem;
+    border-radius: 10px;
+    background-color: #fff2dd;
+    box-shadow:  0px 5px 10px #bcbcbc;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    }
+
+
+.liveSessionOns {
+    height: 5rem;
+    width: 12rem;
+    margin: 2rem;
+    margin-top: -1rem;
+    border-radius: 10px;
+    background-color: #FFE1DD;
+    box-shadow:  0px 5px 10px #bcbcbc;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    
+
+}
+
+.studySessionOns {
+    height: 8rem;
+    width: 12rem;
+    margin-top: 0rem;
+    border-radius: 10px;
+    background-color: #facb93;
+    box-shadow:  0px 5px 10px #bcbcbc;  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.studySessionOns img {
+    margin: 1rem;
+}
+
+.studySessionOns p {
+    padding: 5px;
+}
+    
+
+/* Torsdag */
+
+.sessionTor {
+    height: 22rem;
+    width: 11rem;
+    margin-top: -1rem;
+    border-radius: 15px;
+    background-color: #FFE1DD;
+    box-shadow:  0px 5px 10px #bcbcbc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sessionTor p {
+    padding: 10px;
+}
+
+/* Fredag */
+
+.sessionFre {
+    height: 3.5rem;
+    width: 12rem;
+    margin: 1rem;
+    margin-top: 0rem;
+    border-radius: 10px;
+    background-color: #e1eabd;
+    box-shadow:  0px 5px 10px #bcbcbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamSessionFre {
+    height: 5rem;
+    width: 12rem;
+    margin: 2rem;
+    margin-top: 0rem;
+    border-radius: 10px;
+    background-color: #fff2dd;
+    box-shadow:  0px 5px 10px #bcbcbc;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    }
+
+.liveSessionFre {
+    height: 4rem;
+    width: 12rem;
+    margin: 2rem;
+    margin-top: -1rem;
+    border-radius: 10px;
+    background-color: #FFE1DD;
+    box-shadow:  0px 5px 10px #bcbcbc;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.studySessionFre {
+    height: 7rem;
+    width: 12rem;
+    margin-top: 0rem;
+    border-radius: 10px;
+    background-color: #facb93;
+    box-shadow:  0px 5px 10px #bcbcbc;   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.studySessionFre img {
+    margin: 1rem;
+}
+
+.studySessionFre p {
+    padding: 5px;
+}
+
+.måndag:hover, .tisdag:hover, .onsdag:hover, .torsdag:hover, .fredag:hover {
+    box-shadow: 0 0 25px 10px #e59cad;
+    -webkit-transform: rotateZ(-30deg);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    -ms-transform: rotateZ(-30deg);
+    transition: width 2s, height 2s, transform 2s;
+}
+
+
+
+
+.måndag a:focus, .tisdag a:focus, .onsdag a:focus, .torsdag a:focus, .fredag a:focus {
+    transition: width 2s, height 2s, transform 2s;
+    box-shadow: 0 0 25px 10px #000;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.helaMån h1, .helaTis h1, .helaOns h1, .helaTor h1, .helaFre h1 {
+    text-align: center;
+    font-size: 54px;
+    font-weight: 100;
+    margin-top: 2rem;
+    font-family: cher;
+
+}
